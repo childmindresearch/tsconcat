@@ -10,10 +10,10 @@ packages = [{include = "tsconcat", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 nibabel = "^5.2.0"
-numpy = "^1.26.3"
+numpy = ">=1.26.3,<3.0.0"
 pandas = "^2.2.0"
-rich = "^13.4.2"
-bids2table = "^0.1.0"
+rich = ">=13.4.2,<15.0.0"
+bids2table = ">=0.1,<0.3"
 
 [tool.poetry.group.dev.dependencies]
 pytest = ">=7.4.3,<9.0.0"
