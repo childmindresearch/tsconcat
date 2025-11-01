@@ -20,10 +20,10 @@ pytest = ">=7.4.3,<9.0.0"
 mypy = "^1.8.0"
 pre-commit = ">=3.6,<5.0"
 pytest-cov = ">=4.1,<8.0"
-ruff = ">=0.1.8,<0.13.0"
+ruff = ">=0.1.8,<0.15.0"
 
 [tool.poetry.group.docs.dependencies]
-pdoc = ">=14.4,<16.0"
+pdoc = ">=14.4,<17.0"
 
 [tool.poetry.scripts]
 ba-tsconcat = "tsconcat.cli:main"
