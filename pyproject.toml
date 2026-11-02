@@ -5,7 +5,7 @@ description = "BIDS App and Python library for concatenating MRI time series."
 authors = ["CMI DAIR Center <florian.rupprecht@childmind.org>"]
 license = "LGPL-2.1"
 readme = "README.md"
-packages = [{include = "tsconcat", from = "src"}]
+packages = [{ include = "tsconcat", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
